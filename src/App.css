@@ -32,12 +32,19 @@ label {
 
   
 
-input[type=text],[type=email],[type=password] {
-  width: auto;
+input[type=text],[type=email],[type=password],[type=time] {
+  width:auto;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+select{
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+.timer{
+  margin-left: 50px;
 }
