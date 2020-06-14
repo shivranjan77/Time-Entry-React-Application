@@ -13,7 +13,7 @@ h1{
 .main{
   color: green;
 }
-form {
+.align {
   /* Center the form on the page */
   margin: 10px auto;
   width: 400px;
@@ -29,6 +29,7 @@ label {
   text-align: right;
   padding-right: 10px;
 }
+
 
   
 

@@ -48,7 +48,7 @@ export default class Register extends Component {
     render() {
         return (
             
-            <form >
+            <form className="align" >
             <div> 
              <label>Name</label>
               <input type="text" name="Name" value={this.state.name} onChange={this.nameHandle.bind(this)}></input> <br></br>
