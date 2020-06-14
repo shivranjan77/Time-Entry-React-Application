@@ -1,0 +1,20 @@
+Steps to Run the Application
+**I use Google firebase as Database**
+There are several dependencies in this application check it out on package.json file and make sure you install all the required one .
+
+Step 1 : Downlod the file 
+Step 2: open the application folder in VS code or any editor or open cmd and
+Step 3 : Move to the root directory of Application
+Step 4 : type npm install(All dependencies at once)
+                      OR
+              npm install firebase 
+                     and
+              npm install --save react-router-dom  
+            
+Step 5: After installing all the dependencies type npm start
+
+Step 6: open your browser and type  http://localhost:3000/
+
+            Need any help mail me at shivranjan77@gmail.com
+            
+            Thank YOu
