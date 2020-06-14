@@ -10,6 +10,9 @@ nav{
 h1{
   color: white;
 }
+.main{
+  color: green;
+}
 form {
   /* Center the form on the page */
   margin: 10px auto;
