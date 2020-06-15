@@ -73,6 +73,23 @@ export default class Main extends Component {
             endTime:event.target.value
         })
     }
+    saveHandle=e=>{
+        let messageRef= fire.database().ref('messages').orderByKey().limitToLast(100);
+            fire.database().ref('messages').push(this.state.taskName);
+            fire.database().ref('messages').push(this.state.project);    
+            fire.database().ref('messages').push(this.state.date);
+            fire.database().ref('messages').push(this.state.startTime);
+            fire.database().ref('messages').push(this.state.endTime);
+            console.log(messageRef);
+           
+           this.setState({
+               taskName:e.target.value,
+               date:e.target.value,
+               startTime:e.target.value,
+               endTime:e.target.value,
+               project:e.target.value
+           })
+    }
 
 
     render() {
@@ -95,6 +112,7 @@ export default class Main extends Component {
               <input type="time" name="startTime" value={this.state.startTime} onChange={this.startTimeHandler.bind(this)}></input>
               <label>End Time</label>
               <input type="time" name="endTime" value={this.state.endTimer}onChange={this.endTimeHandler.bind(this)}></input>
+              <button className="timer" onClick={this.saveHandle}>Save</button>
               </div>
              
              
