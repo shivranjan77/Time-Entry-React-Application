@@ -81,6 +81,7 @@ export default class Main extends Component {
             fire.database().ref('messages').push(this.state.startTime);
             fire.database().ref('messages').push(this.state.endTime);
             console.log(messageRef);
+            alert("Data Save to Firebase Database You can check on console and expand query fetching is not done till this message");
            
            this.setState({
                taskName:e.target.value,
