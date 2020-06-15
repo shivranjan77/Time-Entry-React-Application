@@ -6,10 +6,10 @@ Step 1 : Download the file
 Step 2: open the application folder in VS code or any editor or open cmd and
 Step 3 : Move to the root directory of Application
 Step 4 : type npm install
-                      might require these if you face any error related  to this=>
+                     ( might require these if you face any error related  to this=>
               npm install firebase 
                      and
-              npm install --save react-router-dom  
+              npm install --save react-router-dom  )
             
 Step 5: After installing all the dependencies type npm start
 
